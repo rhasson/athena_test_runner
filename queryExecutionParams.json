@@ -1,0 +1,9 @@
+{
+  "QueryString": "", 
+  "ResultConfiguration": { 
+    "OutputLocation": "s3://royon-spark/athena-temp/"
+  },
+  "QueryExecutionContext": {
+    "Database": "default"
+  }
+}
