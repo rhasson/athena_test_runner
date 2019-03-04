@@ -1,9 +1,10 @@
 {
   "QueryString": "", 
   "ResultConfiguration": { 
-    "OutputLocation": "s3://royon-spark/athena-temp/"
+    "OutputLocation": ""
   },
   "QueryExecutionContext": {
     "Database": "default"
-  }
+  },
+  "WorkGroup":"workgroup_name"
 }
